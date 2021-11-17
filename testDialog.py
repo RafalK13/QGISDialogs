@@ -7,7 +7,7 @@ from datetime import *
 from dateutil import parser
 
 from qgis.core import *
-from qgis.gui import *
+from qgis.gui import QgsFileWidget
 from qgis.utils import iface
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow
@@ -48,7 +48,15 @@ def fun1(dialog, layer, feature):
     umBezterm = dialog.findChild( QCheckBox, "ter")
     if( umBezterm):
         umBezterm.stateChanged.connect(lambda: umBeztermChanged() )
-
+        
+    # dirPath = dialog.findChild( QgsFileWidget, "dirPath")
+    # if( dirPath):
+    #     dirPath.fileChanged.connect(lambda: dirPathChanged() )
+        
+    # def dirPathChanged():
+    #     oldPath = dirPath.filePath()
+    #     dirPath.setFilePath( "file:///{}".format(oldPath))       
+    
     def umBeztermChanged( ):
         if( umBezterm.isChecked()):
             c2.tekstElem.setText("")
@@ -57,9 +65,7 @@ def fun1(dialog, layer, feature):
         else:
             c2.tekstElem.setEnabled(True)
             iface.messageBar().pushCritical( "CheckBox", "Is not checked")
-    
-
-        
+           
 class NewDataClass:
     def __init__(self, dialog, elementName):
         self.dialog = dialog

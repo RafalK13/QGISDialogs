@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveUserFull="Rafał Karczewski" version="3.16.9-Hannover" saveUser="rkarczewski" saveDateTime="2021-11-17T14:36:53">
+<qgis saveUserFull="Rafał Karczewski" projectname="" saveUser="rkarczewski" saveDateTime="2021-11-17T16:55:05" version="3.16.13-Hannover">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -8,7 +8,7 @@
   <projectCrs>
     <spatialrefsys>
       <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-      <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
+      <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
       <srsid>168</srsid>
       <srid>2177</srid>
       <authid>EPSG:2177</authid>
@@ -20,10 +20,10 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer name="testDialogs" checked="Qt::Checked" expanded="1" legend_exp="" source="./testDialogs.gpkg|layername=testDialogs" providerKey="ogr" id="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6" patch_size="-1,-1" legend_split_behavior="0">
+    <layer-tree-layer legend_exp="" name="testDialogs" expanded="1" legend_split_behavior="0" providerKey="ogr" checked="Qt::Checked" id="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6" source="./testDialogs.gpkg|layername=testDialogs" patch_size="-1,-1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="warstwaDialogs1" checked="Qt::Checked" expanded="1" legend_exp="" source="./warstwaDialogs1.gpkg|layername=warstwaDialogs1" providerKey="ogr" id="warstwaDialogs1_055c81ba_4bdf_4c3d_a121_dc306f9c807d" patch_size="-1,-1" legend_split_behavior="0">
+    <layer-tree-layer legend_exp="" name="warstwaDialogs1" expanded="1" legend_split_behavior="0" providerKey="ogr" checked="Qt::Checked" id="warstwaDialogs1_055c81ba_4bdf_4c3d_a121_dc306f9c807d" source="./warstwaDialogs1.gpkg|layername=warstwaDialogs1" patch_size="-1,-1">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -31,26 +31,26 @@
       <item>testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings unit="1" enabled="0" minScale="0" tolerance="12" type="1" self-snapping="0" maxScale="0" mode="2" intersection-snapping="0" scaleDependencyMode="0">
+  <snapping-settings mode="2" unit="1" intersection-snapping="0" enabled="0" type="1" scaleDependencyMode="0" maxScale="0" tolerance="12" self-snapping="0" minScale="0">
     <individual-layer-settings>
-      <layer-setting enabled="0" minScale="0" tolerance="12" type="1" id="warstwaDialogs1_055c81ba_4bdf_4c3d_a121_dc306f9c807d" maxScale="0" units="1"/>
-      <layer-setting enabled="0" minScale="0" tolerance="12" type="1" id="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6" maxScale="0" units="1"/>
+      <layer-setting enabled="0" type="1" maxScale="0" tolerance="12" minScale="0" id="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6" units="1"/>
+      <layer-setting enabled="0" type="1" maxScale="0" tolerance="12" minScale="0" id="warstwaDialogs1_055c81ba_4bdf_4c3d_a121_dc306f9c807d" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
-  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>-32466588544.84173583984375</xmin>
-      <ymin>-53345739047.7803497314453125</ymin>
-      <xmax>452971151763.47698974609375</xmax>
-      <ymax>55850965133.905975341796875</ymax>
+      <xmin>-25766013861.04218292236328125</xmin>
+      <ymin>-7432149423.49691200256347656</ymin>
+      <xmax>25796365720.526214599609375</xmax>
+      <ymax>7432285303.49150657653808594</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
       <spatialrefsys>
         <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-        <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
+        <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
         <srsid>168</srsid>
         <srid>2177</srid>
         <authid>EPSG:2177</authid>
@@ -63,22 +63,21 @@
     <rendermaptile>0</rendermaptile>
     <expressionContextScope/>
   </mapcanvas>
-  <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer name="testDialogs" checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" name="testDialogs" open="true" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6"/>
+        <legendlayerfile layerid="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="warstwaDialogs1" checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0">
+    <legendlayer showFeatureCount="0" name="warstwaDialogs1" open="true" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="warstwaDialogs1_055c81ba_4bdf_4c3d_a121_dc306f9c807d"/>
+        <legendlayerfile layerid="warstwaDialogs1_055c81ba_4bdf_4c3d_a121_dc306f9c807d" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
-  <main-annotation-layer refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="annotation" autoRefreshTime="0" autoRefreshEnabled="0">
+  <main-annotation-layer refreshOnNotifyEnabled="0" type="annotation" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0">
     <id>Przypisy_cdf261a9_8332_4541_ba8b_32802b7f84f0</id>
     <datasource></datasource>
     <keywordList>
@@ -127,7 +126,7 @@
     <layerOpacity>1</layerOpacity>
   </main-annotation-layer>
   <projectlayers>
-    <maplayer type="vector" geometry="Line" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="100000000" refreshOnNotifyEnabled="0" wkbType="LineString" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1">
+    <maplayer refreshOnNotifyMessage="" labelsEnabled="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" wkbType="LineString" styleCategories="AllStyleCategories" maxScale="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" minScale="100000000" geometry="Line" simplifyDrawingTol="1" autoRefreshEnabled="0" type="vector" simplifyMaxScale="1" readOnly="0" simplifyDrawingHints="1">
       <extent>
         <xmin>-113749568</xmin>
         <ymin>-86179272</ymin>
@@ -143,7 +142,7 @@
       <srs>
         <spatialrefsys>
           <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
           <srsid>168</srsid>
           <srid>2177</srid>
           <authid>EPSG:2177</authid>
@@ -186,7 +185,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" minx="0" minz="0" maxy="0" maxx="0" crs="" miny="0"/>
+          <spatial maxy="0" dimensions="2" minx="0" miny="0" crs="" minz="0" maxz="0" maxx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -199,7 +198,9 @@
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
-      <expressionfields/>
+      <expressionfields>
+        <field precision="0" typeName="string" type="10" name="path" comment="" expression="'file:///'+  &quot;dirPath&quot; " subType="0" length="0"/>
+      </expressionfields>
       <map-layer-style-manager current="domyślny">
         <map-layer-style name="domyślny"/>
       </map-layer-style-manager>
@@ -209,16 +210,16 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <temporal enabled="0" durationUnit="min" fixedDuration="0" endField="" durationField="" accumulate="0" startExpression="" endExpression="" mode="0" startField="">
+      <temporal mode="0" enabled="0" startField="" endField="" accumulate="0" durationField="" durationUnit="min" startExpression="" fixedDuration="0" endExpression="">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+      <renderer-v2 type="singleSymbol" forceraster="0" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol name="0" type="line" force_rhr="0" clip_to_extent="1" alpha="1">
-            <layer enabled="1" pass="0" class="SimpleLine" locked="0">
+          <symbol force_rhr="0" type="line" name="0" alpha="1" clip_to_extent="1">
+            <layer enabled="1" locked="0" class="SimpleLine" pass="0">
               <prop k="align_dash_pattern" v="0"/>
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -242,9 +243,9 @@
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -254,9 +255,7 @@
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="dualview/previewExpressions">
-          <value>"fid"</value>
-        </property>
+        <property value="&quot;fid&quot;" key="dualview/previewExpressions"/>
         <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -265,12 +264,12 @@
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" penAlpha="255" width="15" spacing="5" penColor="#000000" barWidth="5" direction="0" labelPlacementMethod="XHeight" opacity="1" backgroundColor="#ffffff" rotationOffset="270" maxScaleDenominator="1e+08" minimumSize="0" height="15" diagramOrientation="Up" showAxis="1" backgroundAlpha="255" enabled="0" minScaleDenominator="0" spacingUnit="MM" scaleDependency="Area" sizeType="MM" lineSizeType="MM" penWidth="0" spacingUnitScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0">
+        <DiagramCategory maxScaleDenominator="1e+08" sizeScale="3x:0,0,0,0,0,0" barWidth="5" minimumSize="0" height="15" diagramOrientation="Up" penAlpha="255" width="15" scaleDependency="Area" direction="0" penColor="#000000" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" spacingUnitScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" spacing="5" showAxis="1" minScaleDenominator="0" enabled="0" sizeType="MM" spacingUnit="MM" lineSizeType="MM" scaleBasedVisibility="0" opacity="1" penWidth="0" backgroundAlpha="255" rotationOffset="270">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute label="" field="" color="#000000"/>
+          <attribute label="" color="#000000" field=""/>
           <axisSymbol>
-            <symbol name="" type="line" force_rhr="0" clip_to_extent="1" alpha="1">
-              <layer enabled="1" pass="0" class="SimpleLine" locked="0">
+            <symbol force_rhr="0" type="line" name="" alpha="1" clip_to_extent="1">
+              <layer enabled="1" locked="0" class="SimpleLine" pass="0">
                 <prop k="align_dash_pattern" v="0"/>
                 <prop k="capstyle" v="square"/>
                 <prop k="customdash" v="5;2"/>
@@ -294,9 +293,9 @@
                 <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
                 <data_defined_properties>
                   <Option type="Map">
-                    <Option value="" name="name" type="QString"/>
+                    <Option type="QString" name="name" value=""/>
                     <Option name="properties"/>
-                    <Option value="collection" name="type" type="QString"/>
+                    <Option type="QString" name="type" value="collection"/>
                   </Option>
                 </data_defined_properties>
               </layer>
@@ -304,12 +303,12 @@
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" priority="0" placement="2" linePlacementFlags="18" showAll="1" dist="0" zIndex="0">
+      <DiagramLayerSettings showAll="1" placement="2" linePlacementFlags="18" priority="0" obstacle="0" dist="0" zIndex="0">
         <properties>
           <Option type="Map">
-            <Option value="" name="name" type="QString"/>
+            <Option type="QString" name="name" value=""/>
             <Option name="properties"/>
-            <Option value="collection" name="type" type="QString"/>
+            <Option type="QString" name="type" value="collection"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
@@ -320,15 +319,50 @@
       <legend type="default-vector"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field name="fid" configurationFlags="None">
+        <field configurationFlags="None" name="fid">
           <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="date1" configurationFlags="None">
+        <field configurationFlags="None" name="date1">
           <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="date2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="dirPath">
+          <editWidget type="ExternalResource">
+            <config>
+              <Option type="Map">
+                <Option type="int" name="DocumentViewer" value="0"/>
+                <Option type="int" name="DocumentViewerHeight" value="0"/>
+                <Option type="int" name="DocumentViewerWidth" value="0"/>
+                <Option type="bool" name="FileWidget" value="true"/>
+                <Option type="bool" name="FileWidgetButton" value="true"/>
+                <Option type="QString" name="FileWidgetFilter" value=""/>
+                <Option type="Map" name="PropertyCollection">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+                <Option type="int" name="RelativeStorage" value="0"/>
+                <Option type="int" name="StorageMode" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="path">
+          <editWidget type="">
             <config>
               <Option/>
             </config>
@@ -338,28 +372,45 @@
       <aliases>
         <alias name="" index="0" field="fid"/>
         <alias name="" index="1" field="date1"/>
+        <alias name="" index="2" field="date2"/>
+        <alias name="" index="3" field="dirPath"/>
+        <alias name="" index="4" field="path"/>
       </aliases>
       <defaults>
-        <default expression="" field="fid" applyOnUpdate="0"/>
-        <default expression="" field="date1" applyOnUpdate="0"/>
+        <default applyOnUpdate="0" expression="" field="fid"/>
+        <default applyOnUpdate="0" expression="" field="date1"/>
+        <default applyOnUpdate="0" expression="" field="date2"/>
+        <default applyOnUpdate="0" expression="" field="dirPath"/>
+        <default applyOnUpdate="0" expression="" field="path"/>
       </defaults>
       <constraints>
         <constraint unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0" field="fid"/>
         <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="date1"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="date2"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="dirPath"/>
+        <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="path"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="fid" exp=""/>
-        <constraint desc="" field="date1" exp=""/>
+        <constraint desc="" exp="" field="fid"/>
+        <constraint desc="" exp="" field="date1"/>
+        <constraint desc="" exp="" field="date2"/>
+        <constraint desc="" exp="" field="dirPath"/>
+        <constraint desc="" exp="" field="path"/>
       </constraintExpressions>
-      <expressionfields/>
+      <expressionfields>
+        <field precision="0" typeName="string" type="10" name="path" comment="" expression="'file:///'+  &quot;dirPath&quot; " subType="0" length="0"/>
+      </expressionfields>
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
-          <column name="fid" type="field" hidden="0" width="-1"/>
+          <column type="field" name="fid" hidden="0" width="-1"/>
           <column type="actions" hidden="1" width="-1"/>
-          <column name="date1" type="field" hidden="0" width="-1"/>
+          <column type="field" name="date1" hidden="0" width="-1"/>
+          <column type="field" name="date2" hidden="0" width="-1"/>
+          <column type="field" name="dirPath" hidden="0" width="-1"/>
+          <column type="field" name="path" hidden="0" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -392,18 +443,28 @@ def my_form_open(dialog, layer, feature):
       <editorlayout>uifilelayout</editorlayout>
       <editable>
         <field name="date1" editable="1"/>
+        <field name="date2" editable="1"/>
+        <field name="dirPath" editable="1"/>
         <field name="fid" editable="1"/>
       </editable>
       <labelOnTop>
-        <field name="date1" labelOnTop="0"/>
-        <field name="fid" labelOnTop="0"/>
+        <field labelOnTop="0" name="date1"/>
+        <field labelOnTop="0" name="date2"/>
+        <field labelOnTop="0" name="dirPath"/>
+        <field labelOnTop="0" name="fid"/>
       </labelOnTop>
       <dataDefinedFieldProperties/>
       <widgets/>
       <previewExpression>"fid"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer type="vector" geometry="Line" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="100000000" refreshOnNotifyEnabled="0" wkbType="LineString" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1">
+    <maplayer refreshOnNotifyMessage="" labelsEnabled="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" wkbType="LineString" styleCategories="AllStyleCategories" maxScale="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" minScale="100000000" geometry="Line" simplifyDrawingTol="1" autoRefreshEnabled="0" type="vector" simplifyMaxScale="1" readOnly="0" simplifyDrawingHints="1">
+      <extent>
+        <xmin>4031745</xmin>
+        <ymin>-135353.671875</ymin>
+        <xmax>4126989</xmax>
+        <ymax>10604.4404296875</ymax>
+      </extent>
       <id>warstwaDialogs1_055c81ba_4bdf_4c3d_a121_dc306f9c807d</id>
       <datasource>./warstwaDialogs1.gpkg|layername=warstwaDialogs1</datasource>
       <keywordList>
@@ -413,7 +474,7 @@ def my_form_open(dialog, layer, feature):
       <srs>
         <spatialrefsys>
           <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
           <srsid>168</srsid>
           <srid>2177</srid>
           <authid>EPSG:2177</authid>
@@ -456,7 +517,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" minx="0" minz="0" maxy="0" maxx="0" crs="" miny="0"/>
+          <spatial maxy="0" dimensions="2" minx="0" miny="0" crs="" minz="0" maxz="0" maxx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -479,16 +540,16 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <temporal enabled="0" durationUnit="min" fixedDuration="0" endField="" durationField="fid" accumulate="0" startExpression="" endExpression="" mode="0" startField="date1">
+      <temporal mode="0" enabled="0" startField="date1" endField="" accumulate="0" durationField="fid" durationUnit="min" startExpression="" fixedDuration="0" endExpression="">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+      <renderer-v2 type="singleSymbol" forceraster="0" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol name="0" type="line" force_rhr="0" clip_to_extent="1" alpha="1">
-            <layer enabled="1" pass="0" class="SimpleLine" locked="0">
+          <symbol force_rhr="0" type="line" name="0" alpha="1" clip_to_extent="1">
+            <layer enabled="1" locked="0" class="SimpleLine" pass="0">
               <prop k="align_dash_pattern" v="0"/>
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -512,9 +573,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -532,12 +593,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" penAlpha="255" width="15" spacing="5" penColor="#000000" barWidth="5" direction="0" labelPlacementMethod="XHeight" opacity="1" backgroundColor="#ffffff" rotationOffset="270" maxScaleDenominator="1e+08" minimumSize="0" height="15" diagramOrientation="Up" showAxis="1" backgroundAlpha="255" enabled="0" minScaleDenominator="0" spacingUnit="MM" scaleDependency="Area" sizeType="MM" lineSizeType="MM" penWidth="0" spacingUnitScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0">
+        <DiagramCategory maxScaleDenominator="1e+08" sizeScale="3x:0,0,0,0,0,0" barWidth="5" minimumSize="0" height="15" diagramOrientation="Up" penAlpha="255" width="15" scaleDependency="Area" direction="0" penColor="#000000" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" spacingUnitScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" spacing="5" showAxis="1" minScaleDenominator="0" enabled="0" sizeType="MM" spacingUnit="MM" lineSizeType="MM" scaleBasedVisibility="0" opacity="1" penWidth="0" backgroundAlpha="255" rotationOffset="270">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute label="" field="" color="#000000"/>
+          <attribute label="" color="#000000" field=""/>
           <axisSymbol>
-            <symbol name="" type="line" force_rhr="0" clip_to_extent="1" alpha="1">
-              <layer enabled="1" pass="0" class="SimpleLine" locked="0">
+            <symbol force_rhr="0" type="line" name="" alpha="1" clip_to_extent="1">
+              <layer enabled="1" locked="0" class="SimpleLine" pass="0">
                 <prop k="align_dash_pattern" v="0"/>
                 <prop k="capstyle" v="square"/>
                 <prop k="customdash" v="5;2"/>
@@ -561,9 +622,9 @@ def my_form_open(dialog, layer, feature):
                 <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
                 <data_defined_properties>
                   <Option type="Map">
-                    <Option value="" name="name" type="QString"/>
+                    <Option type="QString" name="name" value=""/>
                     <Option name="properties"/>
-                    <Option value="collection" name="type" type="QString"/>
+                    <Option type="QString" name="type" value="collection"/>
                   </Option>
                 </data_defined_properties>
               </layer>
@@ -571,12 +632,12 @@ def my_form_open(dialog, layer, feature):
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" priority="0" placement="2" linePlacementFlags="18" showAll="1" dist="0" zIndex="0">
+      <DiagramLayerSettings showAll="1" placement="2" linePlacementFlags="18" priority="0" obstacle="0" dist="0" zIndex="0">
         <properties>
           <Option type="Map">
-            <Option value="" name="name" type="QString"/>
+            <Option type="QString" name="name" value=""/>
             <Option name="properties"/>
-            <Option value="collection" name="type" type="QString"/>
+            <Option type="QString" name="type" value="collection"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
@@ -587,24 +648,24 @@ def my_form_open(dialog, layer, feature):
       <legend type="default-vector"/>
       <referencedLayers/>
       <fieldConfiguration>
-        <field name="fid" configurationFlags="None">
+        <field configurationFlags="None" name="fid">
           <editWidget type="Hidden">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
-        <field name="nazwa" configurationFlags="None">
+        <field configurationFlags="None" name="nazwa">
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option value="false" name="IsMultiline" type="bool"/>
-                <Option value="false" name="UseHtml" type="bool"/>
+                <Option type="bool" name="IsMultiline" value="false"/>
+                <Option type="bool" name="UseHtml" value="false"/>
               </Option>
             </config>
           </editWidget>
         </field>
-        <field name="date1" configurationFlags="None">
+        <field configurationFlags="None" name="date1">
           <editWidget type="">
             <config>
               <Option/>
@@ -618,9 +679,9 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="2" field="date1"/>
       </aliases>
       <defaults>
-        <default expression="" field="fid" applyOnUpdate="0"/>
-        <default expression="'wartość poczatkowa'" field="nazwa" applyOnUpdate="0"/>
-        <default expression="" field="date1" applyOnUpdate="0"/>
+        <default applyOnUpdate="0" expression="" field="fid"/>
+        <default applyOnUpdate="0" expression="'wartość poczatkowa'" field="nazwa"/>
+        <default applyOnUpdate="0" expression="" field="date1"/>
       </defaults>
       <constraints>
         <constraint unique_strength="1" constraints="3" notnull_strength="1" exp_strength="0" field="fid"/>
@@ -628,20 +689,20 @@ def my_form_open(dialog, layer, feature):
         <constraint unique_strength="0" constraints="0" notnull_strength="0" exp_strength="0" field="date1"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="fid" exp=""/>
-        <constraint desc="" field="nazwa" exp=""/>
-        <constraint desc="" field="date1" exp=""/>
+        <constraint desc="" exp="" field="fid"/>
+        <constraint desc="" exp="" field="nazwa"/>
+        <constraint desc="" exp="" field="date1"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
-          <column name="fid" type="field" hidden="0" width="-1"/>
-          <column name="nazwa" type="field" hidden="0" width="-1"/>
+          <column type="field" name="fid" hidden="0" width="-1"/>
+          <column type="field" name="nazwa" hidden="0" width="-1"/>
           <column type="actions" hidden="1" width="-1"/>
-          <column name="date1" type="field" hidden="0" width="-1"/>
+          <column type="field" name="date1" hidden="0" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -663,9 +724,9 @@ def my_form_open(dialog, layer, feature):
         <field name="nazwa" editable="1"/>
       </editable>
       <labelOnTop>
-        <field name="fid" labelOnTop="0"/>
-        <field name="fun1" labelOnTop="0"/>
-        <field name="nazwa" labelOnTop="0"/>
+        <field labelOnTop="0" name="fid"/>
+        <field labelOnTop="0" name="fun1"/>
+        <field labelOnTop="0" name="nazwa"/>
       </labelOnTop>
       <dataDefinedFieldProperties/>
       <widgets/>
@@ -791,17 +852,17 @@ def my_form_open(dialog, layer, feature):
   </properties>
   <dataDefinedServerProperties>
     <Option type="Map">
-      <Option value="" name="name" type="QString"/>
+      <Option type="QString" name="name" value=""/>
       <Option name="properties"/>
-      <Option value="collection" name="type" type="QString"/>
+      <Option type="QString" name="type" value="collection"/>
     </Option>
   </dataDefinedServerProperties>
   <visibility-presets/>
   <transformContext>
-    <srcDest allowFallback="0" coordinateOp="">
+    <srcDest coordinateOp="" allowFallback="0">
       <src>
         <spatialrefsys>
-          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
           <srsid>3452</srsid>
           <srid>4326</srid>
@@ -815,7 +876,7 @@ def my_form_open(dialog, layer, feature):
       <dest>
         <spatialrefsys>
           <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
           <srsid>168</srsid>
           <srid>2177</srid>
           <authid>EPSG:2177</authid>
@@ -852,10 +913,10 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="-32466588544.84173583984375" ymax="69535226632.53082275390625" xmax="452971151763.47698974609375" ymin="-67030000546.40518951416015625">
+    <DefaultViewExtent xmin="-25766013861.04218292236328125" ymin="-12929121550.88998794555664063" ymax="12929257430.88458251953125" xmax="25796365720.526214599609375">
       <spatialrefsys>
         <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-        <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
+        <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
         <srsid>168</srsid>
         <srid>2177</srid>
         <authid>EPSG:2177</authid>
@@ -866,18 +927,18 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </DefaultViewExtent>
   </ProjectViewSettings>
-  <ProjectTimeSettings frameRate="1" timeStep="1" timeStepUnit="h" cumulativeTemporalRange="0"/>
+  <ProjectTimeSettings timeStepUnit="h" frameRate="1" timeStep="1" cumulativeTemporalRange="0"/>
   <ProjectDisplaySettings>
     <BearingFormat id="bearing">
       <Option type="Map">
-        <Option value="" name="decimal_separator" type="QChar"/>
-        <Option value="6" name="decimals" type="int"/>
-        <Option value="0" name="direction_format" type="int"/>
-        <Option value="0" name="rounding_type" type="int"/>
-        <Option value="false" name="show_plus" type="bool"/>
-        <Option value="true" name="show_thousand_separator" type="bool"/>
-        <Option value="false" name="show_trailing_zeros" type="bool"/>
-        <Option value="" name="thousand_separator" type="QChar"/>
+        <Option type="QChar" name="decimal_separator" value=""/>
+        <Option type="int" name="decimals" value="6"/>
+        <Option type="int" name="direction_format" value="0"/>
+        <Option type="int" name="rounding_type" value="0"/>
+        <Option type="bool" name="show_plus" value="false"/>
+        <Option type="bool" name="show_thousand_separator" value="true"/>
+        <Option type="bool" name="show_trailing_zeros" value="false"/>
+        <Option type="QChar" name="thousand_separator" value=""/>
       </Option>
     </BearingFormat>
   </ProjectDisplaySettings>
