@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Rafał Karczewski" version="3.16.13-Hannover" projectname="" saveUser="rkarczewski" saveDateTime="2021-11-18T14:37:00">
+<qgis saveUserFull="Rafał Karczewski" saveDateTime="2021-11-19T13:47:16" version="3.16.9-Hannover" saveUser="rkarczewski" projectname="">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -8,7 +8,7 @@
   <projectCrs>
     <spatialrefsys>
       <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-      <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
       <srsid>168</srsid>
       <srid>2177</srid>
       <authid>EPSG:2177</authid>
@@ -20,13 +20,13 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer providerKey="ogr" legend_exp="" expanded="1" patch_size="-1,-1" id="KW_137b84d3_5d0c_4e72_9dae_2ce02b948f9d" checked="Qt::Unchecked" name="KW" legend_split_behavior="0" source="../systemGis_GIWK_2021_08_30/GIS-KW/KW.gpkg|layername=KW">
+    <layer-tree-layer legend_exp="" expanded="1" name="KW" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" checked="Qt::Unchecked" id="KW_137b84d3_5d0c_4e72_9dae_2ce02b948f9d" source="../systemGis_GIWK_2021_08_30/GIS-KW/KW.gpkg|layername=KW">
       <customproperties>
         <property key="embedded" value="1"/>
         <property key="embedded_project" value="../systemGis_GIWK_2021_08_30/GIS-KW/GIS-KW.qgz"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" legend_exp="" expanded="1" patch_size="-1,-1" id="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6" checked="Qt::Checked" name="testDialogs" legend_split_behavior="0" source="./testDialogs.gpkg|layername=testDialogs">
+    <layer-tree-layer legend_exp="" expanded="1" name="Tytuły prawne" patch_size="-1,-1" legend_split_behavior="0" providerKey="ogr" checked="Qt::Checked" id="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6" source="./testDialogs.gpkg|layername=testDialogs">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -34,26 +34,26 @@
       <item>KW_137b84d3_5d0c_4e72_9dae_2ce02b948f9d</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings enabled="0" scaleDependencyMode="0" maxScale="0" tolerance="12" unit="1" self-snapping="0" intersection-snapping="0" mode="2" type="1" minScale="0">
+  <snapping-settings unit="1" maxScale="0" self-snapping="0" scaleDependencyMode="0" enabled="0" tolerance="12" minScale="0" mode="2" type="1" intersection-snapping="0">
     <individual-layer-settings>
-      <layer-setting enabled="0" units="1" maxScale="0" tolerance="12" id="KW_137b84d3_5d0c_4e72_9dae_2ce02b948f9d" type="1" minScale="0"/>
-      <layer-setting enabled="0" units="1" maxScale="0" tolerance="12" id="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6" type="1" minScale="0"/>
+      <layer-setting units="1" maxScale="0" enabled="0" tolerance="12" minScale="0" id="KW_137b84d3_5d0c_4e72_9dae_2ce02b948f9d" type="1"/>
+      <layer-setting units="1" maxScale="0" enabled="0" tolerance="12" minScale="0" id="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
-  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>6528690.77849546354264021</xmin>
-      <ymin>6022600.23564888816326857</ymin>
-      <xmax>6533692.3386519281193614</xmax>
-      <ymax>6025417.59072722773998976</ymax>
+      <xmin>6507005.05429868958890438</xmin>
+      <ymin>6022995.11852626223117113</ymin>
+      <xmax>6547017.53555040620267391</xmax>
+      <ymax>6045533.95915297884494066</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
       <spatialrefsys>
         <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-        <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
         <srsid>168</srsid>
         <srid>2177</srid>
         <authid>EPSG:2177</authid>
@@ -66,21 +66,22 @@
     <rendermaptile>0</rendermaptile>
     <expressionContextScope/>
   </mapcanvas>
+  <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer open="true" checked="Qt::Unchecked" name="KW" showFeatureCount="0" drawingOrder="-1">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="KW" checked="Qt::Unchecked" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile visible="0" isInOverview="0" layerid="KW_137b84d3_5d0c_4e72_9dae_2ce02b948f9d"/>
+        <legendlayerfile visible="0" layerid="KW_137b84d3_5d0c_4e72_9dae_2ce02b948f9d" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" checked="Qt::Checked" name="testDialogs" showFeatureCount="0" drawingOrder="-1">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="Tytuły prawne" checked="Qt::Checked" open="true">
       <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" isInOverview="0" layerid="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6"/>
+        <legendlayerfile visible="1" layerid="testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
-  <main-annotation-layer autoRefreshTime="0" autoRefreshEnabled="0" type="annotation" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0">
+  <main-annotation-layer autoRefreshEnabled="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="annotation">
     <id>Przypisy_cdf261a9_8332_4541_ba8b_32802b7f84f0</id>
     <datasource></datasource>
     <keywordList>
@@ -129,24 +130,24 @@
     <layerOpacity>1</layerOpacity>
   </main-annotation-layer>
   <projectlayers>
-    <maplayer id="KW_137b84d3_5d0c_4e72_9dae_2ce02b948f9d" embedded="1" project="../systemGis_GIWK_2021_08_30/GIS-KW/GIS-KW.qgz"/>
-    <maplayer maxScale="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" minScale="100000000" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyMaxScale="1" geometry="Line" autoRefreshTime="0" simplifyDrawingTol="1" type="vector" simplifyLocal="1" readOnly="0" wkbType="LineString" labelsEnabled="0" hasScaleBasedVisibilityFlag="0">
+    <maplayer embedded="1" project="../systemGis_GIWK_2021_08_30/GIS-KW/GIS-KW.qgz" id="KW_137b84d3_5d0c_4e72_9dae_2ce02b948f9d"/>
+    <maplayer refreshOnNotifyMessage="" wkbType="LineString" simplifyAlgorithm="0" simplifyLocal="1" readOnly="0" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" geometry="Line" simplifyDrawingHints="1" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" labelsEnabled="0" autoRefreshEnabled="0" minScale="100000000">
       <extent>
-        <xmin>6531164.5</xmin>
-        <ymin>6023733.5</ymin>
-        <xmax>6531877</xmax>
-        <ymax>6024676</ymax>
+        <xmin>6525375.5</xmin>
+        <ymin>6028432</ymin>
+        <xmax>6540439.97580638993531466</xmax>
+        <ymax>6044727.79489938449114561</ymax>
       </extent>
       <id>testDialogs_06741fbe_fdea_4ba2_9592_2d0689f386e6</id>
       <datasource>./testDialogs.gpkg|layername=testDialogs</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>testDialogs</layername>
+      <layername>Tytuły prawne</layername>
       <srs>
         <spatialrefsys>
           <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
           <srsid>168</srsid>
           <srid>2177</srid>
           <authid>EPSG:2177</authid>
@@ -189,7 +190,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial minx="0" crs="" dimensions="2" minz="0" maxy="0" miny="0" maxx="0" maxz="0"/>
+          <spatial miny="0" crs="" minz="0" dimensions="2" maxz="0" maxx="0" maxy="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -203,7 +204,7 @@
       <layerDependencies/>
       <dataDependencies/>
       <expressionfields>
-        <field comment="" length="0" expression="replace( replace(replace( replace('file:///'+  &quot;dirPath&quot;,' ', '%20'), '(', '%28'), ')', '%29'),'\\\\', '\\')" precision="0" subType="0" typeName="string" name="path" type="10"/>
+        <field comment="" length="0" typeName="string" name="path" subType="0" precision="0" expression="if(length(dirPath>0), replace( replace(replace( replace('file:///'+  &quot;dirPath&quot;,' ', '%20'), '(', '%28'), ')', '%29'),'\\\\', '\\'),'')" type="10"/>
       </expressionfields>
       <map-layer-style-manager current="domyślny">
         <map-layer-style name="domyślny"/>
@@ -214,42 +215,42 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <temporal enabled="0" startExpression="" endField="" fixedDuration="0" startField="" endExpression="" durationUnit="min" mode="0" durationField="fid" accumulate="0">
+      <temporal endExpression="" durationUnit="min" endField="" durationField="fid" enabled="0" accumulate="0" mode="0" startField="" fixedDuration="0" startExpression="">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
         <symbols>
-          <symbol force_rhr="0" alpha="1" clip_to_extent="1" type="line" name="0">
-            <layer enabled="1" class="SimpleLine" locked="0" pass="0">
-              <prop k="align_dash_pattern" v="0"/>
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="dash_pattern_offset" v="0"/>
-              <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="dash_pattern_offset_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="8,55,245,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="ring_filter" v="0"/>
-              <prop k="tweak_dash_pattern_on_corners" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="line">
+            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+              <prop v="0" k="align_dash_pattern"/>
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="dash_pattern_offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+              <prop v="MM" k="dash_pattern_offset_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="8,55,245,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="1" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="tweak_dash_pattern_on_corners"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" name="name" value=""/>
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -259,9 +260,7 @@
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="dualview/previewExpressions">
-          <value>"fid"</value>
-        </property>
+        <property key="dualview/previewExpressions" value="&quot;fid&quot;"/>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -269,39 +268,39 @@
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-        <DiagramCategory height="15" spacing="5" showAxis="1" sizeType="MM" scaleBasedVisibility="0" width="15" labelPlacementMethod="XHeight" maxScaleDenominator="1e+08" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" rotationOffset="270" minScaleDenominator="0" opacity="1" backgroundColor="#ffffff" scaleDependency="Area" enabled="0" lineSizeType="MM" minimumSize="0" penWidth="0" diagramOrientation="Up" direction="0" spacingUnit="MM" spacingUnitScale="3x:0,0,0,0,0,0" backgroundAlpha="255" penAlpha="255">
-          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute field="" color="#000000" label=""/>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory spacingUnitScale="3x:0,0,0,0,0,0" lineSizeScale="3x:0,0,0,0,0,0" penColor="#000000" labelPlacementMethod="XHeight" scaleDependency="Area" penWidth="0" sizeType="MM" penAlpha="255" width="15" spacing="5" diagramOrientation="Up" showAxis="1" backgroundAlpha="255" maxScaleDenominator="1e+08" rotationOffset="270" direction="0" lineSizeType="MM" enabled="0" height="15" sizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" spacingUnit="MM" opacity="1" barWidth="5" backgroundColor="#ffffff" minScaleDenominator="0" minimumSize="0">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
           <axisSymbol>
-            <symbol force_rhr="0" alpha="1" clip_to_extent="1" type="line" name="">
-              <layer enabled="1" class="SimpleLine" locked="0" pass="0">
-                <prop k="align_dash_pattern" v="0"/>
-                <prop k="capstyle" v="square"/>
-                <prop k="customdash" v="5;2"/>
-                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="customdash_unit" v="MM"/>
-                <prop k="dash_pattern_offset" v="0"/>
-                <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="dash_pattern_offset_unit" v="MM"/>
-                <prop k="draw_inside_polygon" v="0"/>
-                <prop k="joinstyle" v="bevel"/>
-                <prop k="line_color" v="35,35,35,255"/>
-                <prop k="line_style" v="solid"/>
-                <prop k="line_width" v="0.26"/>
-                <prop k="line_width_unit" v="MM"/>
-                <prop k="offset" v="0"/>
-                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="ring_filter" v="0"/>
-                <prop k="tweak_dash_pattern_on_corners" v="0"/>
-                <prop k="use_custom_dash" v="0"/>
-                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <symbol clip_to_extent="1" force_rhr="0" name="" alpha="1" type="line">
+              <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+                <prop v="0" k="align_dash_pattern"/>
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="dash_pattern_offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+                <prop v="MM" k="dash_pattern_offset_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="tweak_dash_pattern_on_corners"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
                 <data_defined_properties>
                   <Option type="Map">
-                    <Option type="QString" name="name" value=""/>
+                    <Option value="" name="name" type="QString"/>
                     <Option name="properties"/>
-                    <Option type="QString" name="type" value="collection"/>
+                    <Option value="collection" name="type" type="QString"/>
                   </Option>
                 </data_defined_properties>
               </layer>
@@ -309,16 +308,16 @@
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" dist="0" placement="2" linePlacementFlags="18" zIndex="0" priority="0" showAll="1">
+      <DiagramLayerSettings obstacle="0" zIndex="0" placement="2" showAll="1" linePlacementFlags="18" priority="0" dist="0">
         <properties>
           <Option type="Map">
-            <Option type="QString" name="name" value=""/>
+            <Option value="" name="name" type="QString"/>
             <Option name="properties"/>
-            <Option type="QString" name="type" value="collection"/>
+            <Option value="collection" name="type" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -332,17 +331,56 @@
             </config>
           </editWidget>
         </field>
+        <field configurationFlags="None" name="tytul">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
         <field configurationFlags="None" name="date1">
           <editWidget type="DateTime">
             <config>
-              <Option/>
+              <Option type="Map">
+                <Option value="true" name="allow_null" type="bool"/>
+                <Option value="true" name="calendar_popup" type="bool"/>
+                <Option value="yyyy-MM-dd" name="display_format" type="QString"/>
+                <Option value="yyyy-MM-dd" name="field_format" type="QString"/>
+                <Option value="false" name="field_iso_format" type="bool"/>
+              </Option>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="date2">
           <editWidget type="TextEdit">
             <config>
-              <Option/>
+              <Option type="Map">
+                <Option value="false" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ustanawiajacy">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="odplatny">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
+              </Option>
             </config>
           </editWidget>
         </field>
@@ -350,19 +388,29 @@
           <editWidget type="ExternalResource">
             <config>
               <Option type="Map">
-                <Option type="int" name="DocumentViewer" value="0"/>
-                <Option type="int" name="DocumentViewerHeight" value="0"/>
-                <Option type="int" name="DocumentViewerWidth" value="0"/>
-                <Option type="bool" name="FileWidget" value="true"/>
-                <Option type="bool" name="FileWidgetButton" value="true"/>
-                <Option type="QString" name="FileWidgetFilter" value=""/>
-                <Option type="Map" name="PropertyCollection">
-                  <Option type="QString" name="name" value=""/>
+                <Option value="0" name="DocumentViewer" type="int"/>
+                <Option value="0" name="DocumentViewerHeight" type="int"/>
+                <Option value="0" name="DocumentViewerWidth" type="int"/>
+                <Option value="true" name="FileWidget" type="bool"/>
+                <Option value="true" name="FileWidgetButton" type="bool"/>
+                <Option value="" name="FileWidgetFilter" type="QString"/>
+                <Option name="PropertyCollection" type="Map">
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
-                <Option type="int" name="RelativeStorage" value="0"/>
-                <Option type="int" name="StorageMode" value="0"/>
+                <Option value="0" name="RelativeStorage" type="int"/>
+                <Option value="0" name="StorageMode" type="int"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="uwagi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="false" name="IsMultiline" type="bool"/>
+                <Option value="false" name="UseHtml" type="bool"/>
               </Option>
             </config>
           </editWidget>
@@ -371,66 +419,86 @@
           <editWidget type="ExternalResource">
             <config>
               <Option type="Map">
-                <Option type="int" name="DocumentViewer" value="2"/>
-                <Option type="int" name="DocumentViewerHeight" value="0"/>
-                <Option type="int" name="DocumentViewerWidth" value="0"/>
-                <Option type="bool" name="FileWidget" value="true"/>
-                <Option type="bool" name="FileWidgetButton" value="true"/>
-                <Option type="QString" name="FileWidgetFilter" value=""/>
-                <Option type="Map" name="PropertyCollection">
-                  <Option type="QString" name="name" value=""/>
+                <Option value="2" name="DocumentViewer" type="int"/>
+                <Option value="0" name="DocumentViewerHeight" type="int"/>
+                <Option value="0" name="DocumentViewerWidth" type="int"/>
+                <Option value="true" name="FileWidget" type="bool"/>
+                <Option value="true" name="FileWidgetButton" type="bool"/>
+                <Option value="" name="FileWidgetFilter" type="QString"/>
+                <Option name="PropertyCollection" type="Map">
+                  <Option value="" name="name" type="QString"/>
                   <Option name="properties"/>
-                  <Option type="QString" name="type" value="collection"/>
+                  <Option value="collection" name="type" type="QString"/>
                 </Option>
-                <Option type="int" name="RelativeStorage" value="0"/>
-                <Option type="int" name="StorageMode" value="0"/>
+                <Option value="0" name="RelativeStorage" type="int"/>
+                <Option value="0" name="StorageMode" type="int"/>
               </Option>
             </config>
           </editWidget>
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="fid" index="0" name=""/>
-        <alias field="date1" index="1" name=""/>
-        <alias field="date2" index="2" name=""/>
-        <alias field="dirPath" index="3" name=""/>
-        <alias field="path" index="4" name=""/>
+        <alias index="0" name="" field="fid"/>
+        <alias index="1" name="Tytuł" field="tytul"/>
+        <alias index="2" name="Data rozpoczęcia" field="date1"/>
+        <alias index="3" name="Data zakończenia" field="date2"/>
+        <alias index="4" name="Ustanawiający" field="ustanawiajacy"/>
+        <alias index="5" name="Odpłatny" field="odplatny"/>
+        <alias index="6" name="Scieżka" field="dirPath"/>
+        <alias index="7" name="Uwagi" field="uwagi"/>
+        <alias index="8" name="Załączniki" field="path"/>
       </aliases>
       <defaults>
         <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="tytul" applyOnUpdate="0" expression="' '"/>
         <default field="date1" applyOnUpdate="0" expression=""/>
         <default field="date2" applyOnUpdate="0" expression=""/>
-        <default field="dirPath" applyOnUpdate="0" expression="' '"/>
-        <default field="path" applyOnUpdate="0" expression=""/>
+        <default field="ustanawiajacy" applyOnUpdate="0" expression="' '"/>
+        <default field="odplatny" applyOnUpdate="0" expression=""/>
+        <default field="dirPath" applyOnUpdate="0" expression="'\\\\kajko\\EKSPLOATACJA'"/>
+        <default field="uwagi" applyOnUpdate="0" expression="' '"/>
+        <default field="path" applyOnUpdate="0" expression="' ' "/>
       </defaults>
       <constraints>
-        <constraint field="fid" constraints="3" unique_strength="1" notnull_strength="1" exp_strength="0"/>
-        <constraint field="date1" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-        <constraint field="date2" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-        <constraint field="dirPath" constraints="4" unique_strength="0" notnull_strength="0" exp_strength="2"/>
-        <constraint field="path" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="3" notnull_strength="1" unique_strength="1" field="fid" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" unique_strength="0" field="tytul" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" unique_strength="0" field="date1" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" unique_strength="0" field="date2" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" unique_strength="0" field="ustanawiajacy" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" unique_strength="0" field="odplatny" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" unique_strength="0" field="dirPath" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" unique_strength="0" field="uwagi" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" unique_strength="0" field="path" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="fid" desc="" exp=""/>
-        <constraint field="date1" desc="" exp=""/>
-        <constraint field="date2" desc="" exp=""/>
-        <constraint field="dirPath" desc="" exp="&quot;date2&quot;"/>
-        <constraint field="path" desc="" exp=""/>
+        <constraint desc="" exp="" field="fid"/>
+        <constraint desc="" exp="" field="tytul"/>
+        <constraint desc="" exp="" field="date1"/>
+        <constraint desc="" exp="" field="date2"/>
+        <constraint desc="" exp="" field="ustanawiajacy"/>
+        <constraint desc="" exp="" field="odplatny"/>
+        <constraint desc="" exp="" field="dirPath"/>
+        <constraint desc="" exp="" field="uwagi"/>
+        <constraint desc="" exp="" field="path"/>
       </constraintExpressions>
       <expressionfields>
-        <field comment="" length="0" expression="replace( replace(replace( replace('file:///'+  &quot;dirPath&quot;,' ', '%20'), '(', '%28'), ')', '%29'),'\\\\', '\\')" precision="0" subType="0" typeName="string" name="path" type="10"/>
+        <field comment="" length="0" typeName="string" name="path" subType="0" precision="0" expression="if(length(dirPath>0), replace( replace(replace( replace('file:///'+  &quot;dirPath&quot;,' ', '%20'), '(', '%28'), ')', '%29'),'\\\\', '\\'),'')" type="10"/>
       </expressionfields>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column hidden="0" type="field" name="fid" width="-1"/>
+          <column name="tytul" hidden="0" type="field" width="-1"/>
           <column hidden="1" type="actions" width="-1"/>
-          <column hidden="0" type="field" name="date1" width="-1"/>
-          <column hidden="0" type="field" name="date2" width="-1"/>
-          <column hidden="0" type="field" name="dirPath" width="426"/>
-          <column hidden="0" type="field" name="path" width="780"/>
+          <column name="date1" hidden="0" type="field" width="-1"/>
+          <column name="date2" hidden="0" type="field" width="100"/>
+          <column name="path" hidden="0" type="field" width="780"/>
+          <column name="odplatny" hidden="0" type="field" width="-1"/>
+          <column name="ustanawiajacy" hidden="0" type="field" width="-1"/>
+          <column name="uwagi" hidden="0" type="field" width="-1"/>
+          <column name="fid" hidden="0" type="field" width="-1"/>
+          <column name="dirPath" hidden="0" type="field" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -466,18 +534,28 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="date2"/>
         <field editable="1" name="dirPath"/>
         <field editable="1" name="fid"/>
+        <field editable="1" name="odplatny"/>
         <field editable="0" name="path"/>
+        <field editable="1" name="tytul"/>
+        <field editable="1" name="ustanawiajacy"/>
+        <field editable="1" name="uwagi"/>
+        <field editable="1" name="zalaczniki"/>
       </editable>
       <labelOnTop>
-        <field labelOnTop="0" name="date1"/>
-        <field labelOnTop="0" name="date2"/>
-        <field labelOnTop="0" name="dirPath"/>
-        <field labelOnTop="0" name="fid"/>
-        <field labelOnTop="0" name="path"/>
+        <field name="date1" labelOnTop="0"/>
+        <field name="date2" labelOnTop="0"/>
+        <field name="dirPath" labelOnTop="0"/>
+        <field name="fid" labelOnTop="0"/>
+        <field name="odplatny" labelOnTop="0"/>
+        <field name="path" labelOnTop="0"/>
+        <field name="tytul" labelOnTop="0"/>
+        <field name="ustanawiajacy" labelOnTop="0"/>
+        <field name="uwagi" labelOnTop="0"/>
+        <field name="zalaczniki" labelOnTop="0"/>
       </labelOnTop>
       <dataDefinedFieldProperties/>
       <widgets/>
-      <previewExpression>"fid"</previewExpression>
+      <previewExpression>"path"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
   </projectlayers>
@@ -599,9 +677,9 @@ def my_form_open(dialog, layer, feature):
   </properties>
   <dataDefinedServerProperties>
     <Option type="Map">
-      <Option type="QString" name="name" value=""/>
+      <Option value="" name="name" type="QString"/>
       <Option name="properties"/>
-      <Option type="QString" name="type" value="collection"/>
+      <Option value="collection" name="type" type="QString"/>
     </Option>
   </dataDefinedServerProperties>
   <visibility-presets/>
@@ -609,7 +687,7 @@ def my_form_open(dialog, layer, feature):
     <srcDest allowFallback="0" coordinateOp="">
       <src>
         <spatialrefsys>
-          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
           <srsid>3452</srsid>
           <srid>4326</srid>
@@ -623,7 +701,7 @@ def my_form_open(dialog, layer, feature):
       <dest>
         <spatialrefsys>
           <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
           <srsid>168</srsid>
           <srid>2177</srid>
           <authid>EPSG:2177</authid>
@@ -660,10 +738,10 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="6527865.65564728062599897" ymin="6022600.23564888816326857" xmax="6534517.46150011103600264" ymax="6025417.59072722773998976">
+    <DefaultViewExtent xmin="6507005.05429868958890438" xmax="6547017.53555040620267391" ymax="6053904.95106546301394701" ymin="6014624.12661377806216478">
       <spatialrefsys>
         <wkt>PROJCRS["ETRF2000-PL / CS2000/18",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS2000 zone 6",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",18,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.999923,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",6500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (1:5000 and larger scales)."],AREA["Poland - onshore and offshore between 16°30'E and 19°30'E."],BBOX[49.39,16.5,55.93,19.5]],ID["EPSG",2177]]</wkt>
-        <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <proj4>+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs</proj4>
         <srsid>168</srsid>
         <srid>2177</srid>
         <authid>EPSG:2177</authid>
@@ -674,18 +752,18 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </DefaultViewExtent>
   </ProjectViewSettings>
-  <ProjectTimeSettings timeStep="1" cumulativeTemporalRange="0" frameRate="1" timeStepUnit="h"/>
+  <ProjectTimeSettings frameRate="1" timeStep="1" timeStepUnit="h" cumulativeTemporalRange="0"/>
   <ProjectDisplaySettings>
     <BearingFormat id="bearing">
       <Option type="Map">
-        <Option type="QChar" name="decimal_separator" value=""/>
-        <Option type="int" name="decimals" value="6"/>
-        <Option type="int" name="direction_format" value="0"/>
-        <Option type="int" name="rounding_type" value="0"/>
-        <Option type="bool" name="show_plus" value="false"/>
-        <Option type="bool" name="show_thousand_separator" value="true"/>
-        <Option type="bool" name="show_trailing_zeros" value="false"/>
-        <Option type="QChar" name="thousand_separator" value=""/>
+        <Option value="" name="decimal_separator" type="QChar"/>
+        <Option value="6" name="decimals" type="int"/>
+        <Option value="0" name="direction_format" type="int"/>
+        <Option value="0" name="rounding_type" type="int"/>
+        <Option value="false" name="show_plus" type="bool"/>
+        <Option value="true" name="show_thousand_separator" type="bool"/>
+        <Option value="false" name="show_trailing_zeros" type="bool"/>
+        <Option value="" name="thousand_separator" type="QChar"/>
       </Option>
     </BearingFormat>
   </ProjectDisplaySettings>

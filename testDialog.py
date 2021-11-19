@@ -16,32 +16,32 @@ def fun1(dialog, layer, feature):
     dataRoz = NewDataClass( dialog, "date1")
     dataZak = NewDataClass( dialog, "date2")
   
-    umBezterm = dialog.findChild( QCheckBox, "ter")
+    umBezterm = dialog.findChild(QCheckBox, "ter")
     if( umBezterm):
         umBezterm.stateChanged.connect(lambda: umBeztermChanged() )
         
+    dirPath = dialog.findChild(QgsFileWidget, "dirPath")
+
     def buttonAccepted():
-        dirPath = dialog.findChild( QgsFileWidget, "dirPath")
-       
         if( dirPath.filePath() == '\\\\kajko\\EKSPLOATACJA'):
             dirPath.setFilePath('') 
         
-    button = dialog.findChild( QDialogButtonBox, "buttons")
+    button = dialog.findChild(QDialogButtonBox, "buttons")
     if( button):
         button.accepted.connect(buttonAccepted);
         
-    platnyTekst = dialog.findChild( QLineEdit, "odplatny")
+    platnyTekst = dialog.findChild(QLineEdit, "odplatny")
     if( platnyTekst):
         platnyTekst.setText("Nie")
     
-    odplatny = dialog.findChild( QCheckBox, "platny")
+    odplatny = dialog.findChild(QCheckBox, "platny")
     def platnyChanged( ):
         if( odplatny.isChecked()):
             platnyTekst.setText("Tak")
     
     if( odplatny):
         odplatny.stateChanged.connect(platnyChanged )
-        
+             
     def umBeztermChanged( ):
         if( umBezterm.isChecked()):
             dataZak.tekstElem.setText("")
