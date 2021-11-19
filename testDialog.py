@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-# from PyQt5.QtWidgets import *
 from qgis.PyQt.QtWidgets import QLineEdit, QDateEdit, QDialog, QCheckBox, QDialogButtonBox
 from qgis.PyQt.QtCore import QDate
-# from PyQt5.QtWidgets import QLineEdit //zamienie
 from datetime import *
 from dateutil import parser
 
@@ -15,8 +13,8 @@ import sys
 
 def fun1(dialog, layer, feature):
     
-    c1 = NewDataClass( dialog, "date1")
-    c2 = NewDataClass( dialog, "date2")
+    dataRoz = NewDataClass( dialog, "date1")
+    dataZak = NewDataClass( dialog, "date2")
   
     umBezterm = dialog.findChild( QCheckBox, "ter")
     if( umBezterm):
@@ -24,22 +22,33 @@ def fun1(dialog, layer, feature):
         
     def buttonAccepted():
         dirPath = dialog.findChild( QgsFileWidget, "dirPath")
-
+       
         if( dirPath.filePath() == '\\\\kajko\\EKSPLOATACJA'):
             dirPath.setFilePath('') 
-    
+        
     button = dialog.findChild( QDialogButtonBox, "buttons")
-    
     if( button):
-        button.accepted.connect( buttonAccepted);
-
+        button.accepted.connect(buttonAccepted);
+        
+    platnyTekst = dialog.findChild( QLineEdit, "odplatny")
+    if( platnyTekst):
+        platnyTekst.setText("Nie")
+    
+    odplatny = dialog.findChild( QCheckBox, "platny")
+    def platnyChanged( ):
+        if( odplatny.isChecked()):
+            platnyTekst.setText("Tak")
+    
+    if( odplatny):
+        odplatny.stateChanged.connect(platnyChanged )
+        
     def umBeztermChanged( ):
         if( umBezterm.isChecked()):
-            c2.tekstElem.setText("")
-            c2.tekstElem.setEnabled(False)
+            dataZak.tekstElem.setText("")
+            dataZak.tekstElem.setEnabled(False)
             # iface.messageBar().pushCritical( "CheckBox", "Is checked")
         else:
-            c2.tekstElem.setEnabled(True)
+            dataZak.tekstElem.setEnabled(True)
             # iface.messageBar().pushCritical( "CheckBox", "Is not checked")
            
 class NewDataClass:
